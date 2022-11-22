@@ -1,4 +1,8 @@
+# Parks in Manitoba
+
 ## API Description
+
+A simple API to get information about Parks in Manitoba.
 
 ## Endpoints
 
