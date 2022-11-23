@@ -2,7 +2,8 @@
 
 ## API Description
 
-A simple API to get information about Parks in Manitoba.
+A simple API to get information about parks in Manitoba. It returns information about the operating hours and available amenities for convenience.
+There are plenty of parks and it is hard to keep track of them all, which this API serves to assist with.
 
 ## Endpoints
 
@@ -15,7 +16,7 @@ There is a single endpoint which can be accessed with a GET request to **https:/
 	"information":
 	{
 		"park_name": full name of the park
-		"hours_of_operation": 
+		"hours_of_operation": unformatted or formatted, based on month of year
 		"amenities":
 		{
 			"beach": yes/no
@@ -30,6 +31,25 @@ There is a single endpoint which can be accessed with a GET request to **https:/
 
 ## Sample request with sample response
 
-*Request*
+**Request**
+
 ```https://api.parks-manitoba.ca/json?name=whiteshell&month=6&formatted=1```  
-*Response*
+**Response**
+
+```
+{
+	"information":
+	{
+		"park_name": "whiteshell"
+		"hours_of_operation": "6:00 AM - 4:30 PM"
+		"amenities":
+		{
+			"beach": yes
+			"fishing": yes
+			"hiking_trail": yes
+			"picnic_area": yes
+			"golf": yes
+		}
+	}
+}
+```
