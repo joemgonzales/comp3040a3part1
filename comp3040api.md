@@ -10,6 +10,24 @@ There is a single endpoint which can be accessed with a GET request to **https:/
 
 ## Description of resources
 
+```
+{
+	"information":
+	{
+		"park_name": full name of the park
+		"hours_of_operation": 
+		"amenities":
+		{
+			"beach": yes/no
+			"fishing": yes/no
+			"hiking_trail": yes/no
+			"picnic_area": yes/no
+			"golf": yes/no
+		}
+	}
+}
+```
+
 ## Sample request with sample response
 
 *Request*
