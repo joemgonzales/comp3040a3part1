@@ -9,6 +9,12 @@ There are plenty of parks and it is hard to keep track of them all, which this A
 
 There is a single endpoint which can be accessed with a GET request to **https://api.parks-manitoba.ca/json**.
 
+### Parameters
+
+**name**(string) - name of the park
+**month**(int) - number of the month in a year
+
+
 ## Description of resources
 
 ```
