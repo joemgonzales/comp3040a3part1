@@ -11,8 +11,8 @@ There is a single endpoint which can be accessed with a GET request to **https:/
 
 ### Parameters
 
-**name**(string) - name of the park
-**month**(int) - number of the month in a year
+* **name**(string) - name of the park
+* **month**(int) - number of the month in a year
 
 
 ## Description of resources
