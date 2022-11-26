@@ -13,7 +13,7 @@ There is a single endpoint which can be accessed with a GET request to **https:/
 
 * **name**(string) - name of the park
 * **month**(int) - number of the month in a year
-* formatted**(int) - 0 or 1 (1 is default). Hours of operation in response will be expressed following
+* **formatted**(int) - 0 or 1 (1 is default). Hours of operation in response will be expressed following ISO 8601
 
 
 ## Description of resources
